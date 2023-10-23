@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detail</title>
+    <link rel="icon" href="./img/logo-icon.png" />
+
+    <!-- Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+
+    <!-- GG font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- Wow js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+      integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Animate -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="./sass/detail/detail.css" />
+
+    <!-- Owl carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div id="arrow-up" class="move-top">
+      <div class="arrow"><i class="ri-arrow-up-line"></i></div>
+    </div>
+
+    <section class="header-top">
+      <div class="brand-logo">
+        <a href="" class="icon"><i class="ri-facebook-fill"></i></a>
+        <a href="" class="icon"><i class="ri-twitter-fill"></i></a>
+        <a href="" class="icon"><i class="ri-vimeo-fill"></i></a>
+        <a href="" class="icon"><i class="ri-instagram-fill"></i></a>
+        <a href="" class="icon"><i class="ri-unsplash-fill"></i></a>
+      </div>
+
+      <div class="logo">
+        <img src="./img/logo.png" alt="" />
+      </div>
+
+      <div class="header-item">
+        <div class="item"><i class="ri-search-line"></i></div>
+        <a href="" style="margin-right: 1rem" class="item about">About</a>
+        <a href="./login.html" class="item subcribe"
+          ><i class="ri-user-line"></i
+        ></a>
+      </div>
+
+      <div class="show-nav"><i class="ri-menu-3-line"></i></div>
+    </section>
+
+    <div class="search-input">
+      <input type="text" class="search" placeholder="Search here..." value="" />
+      <div class="close-icon"><i class="ri-close-line"></i></div>
+    </div>
+
+    <div class="main-menu">
+      <div class="menu-container">
+        <div
+          style="cursor: pointer"
+          class="change-icon--nav wow animate__bounceIn"
+        >
+          <i class="ri-close-line"></i>
+        </div>
+        <a href="./index.html" class="menu-item">Home</a>
+        <a href="./posts.html" class="menu-item">Categories</a>
+        <a href="#" class="menu-item active">Detail</a>
+        <a href="" class="menu-item">Blog</a>
+        <a href="./contact.html" class="menu-item">Contact Us</a>
+      </div>
+    </div>
+
+    <div class="breadcrumb-line">
+      <div class="main-breadcrumb">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    <a href="./index.html"><i class="ri-home-fill"></i> Home</a>
+                  </li>
+                  <li class="breadcrumb-item">
+                    <a href="./posts.html"
+                      ><i class="ri-cactus-fill"></i> Feature</a
+                    >
+                  </li>
+                  <li class="breadcrumb-item">
+                    <a href="./posts.html"
+                      ><i class="ri-cactus-fill"></i> Post</a
+                    >
+                  </li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    Detail
+                  </li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="detail-img">
+      <div class="detail-img-container">
+        <!-- <img src="https://bit.ly/3JJo1pO" alt=""> -->
+      </div>
+    </div>
+
+    <div class="posted-area">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-8 col-xl-7">
+            <div class="post-details-content">
+              <!-- Blog Content -->
+              <div class="blog-content">
+                <!-- Post Content -->
+                <div class="post-content">
+                  <a
+                    onclick="categoryOnclick(this.textContent)"
+                    href="#"
+                    class="post-cata"
+                  ></a>
+                  <a href="#" class="post-title"></a>
+
+                  <div class="date-author">
+                    <div class="post-meta meta-01">
+                      <a href="" class="post-author"></a>
+
+                      <a
+                        style="margin-left: 2rem"
+                        href=""
+                        class="post-date"
+                      ></a>
+                    </div>
+                    <div class="post-meta meta-02">
+                      <a href=""><i class="ri-message-3-line"></i> 32</a>
+                      <a href=""><i class="ri-eye-line"></i> 42</a>
+                      <a href=""><i class="ri-thumb-up-line"></i> 7</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="post-main-content">
+                  <p>
+                    I love dals. All kinds of them but yellow moong dal is my
+                    go-to lentil when I am in need of some easy comfort food. In
+                    this recipe I added suva or dill leaves to the classic moong
+                    dal recipe for a twist. I like the simplicity of this
+                    recipe, just the dal, tomatoes and fresh dill with simple
+                    seasoning. This recipe is without any onions and garlic. I
+                    love the aroma of fresh dill and I think, in Indian food, we
+                    don’t really use dill as much as we can. Nine out of ten
+                    times, the only green leaves sprinkled on a curry or a dal
+                    is fresh coriander and while I love coriander too, dill adds
+                    a unique freshness and aroma to the dal. The delicate
+                    feathery leaves of dill are also rich in Vitamin A, C and
+                    minerals like iron and manganese.
+                  </p>
+
+                  <p>
+                    Dals or lentils are packed with proteins and especially in a
+                    vegetarian diet, lentils are the main source of protein. It
+                    is amazing how this humble yellow moong dal can be made into
+                    so many recipes from a plain dal khichdi to mangodi ki sabzi
+                    to the traditional Indian desserts like moong dal halwa.
+                  </p>
+
+                  <p>
+                    Dals or lentils are packed with proteins and especially in a
+                    vegetarian diet, lentils are the main source of protein. It
+                    is amazing how this humble yellow moong dal can be made into
+                    so many recipes from a plain dal khichdi to mangodi ki sabzi
+                    to the traditional Indian desserts like moong dal halwa.
+                    Fresh dill should be added only at the end of cooking, much
+                    like fresh coriander leaves.
+                  </p>
+                </div>
+
+                <!-- Post Tags -->
+                <div class="post-tags">
+                  <ul>
+                    <li><a href="#">HealthFood</a></li>
+                    <li><a href="#">Sport</a></li>
+                    <li><a href="#">Game</a></li>
+                  </ul>
+                </div>
+
+                <!-- Comment Area Start -->
+                <div class="comment_area">
+                  <!-- Section Title -->
+                  <div class="section-heading">
+                    <h4>Comment</h4>
+                    <div class="line"></div>
+                  </div>
+
+                  <ul>
+                    <!-- Single Comment Area -->
+                    <li class="single_comment_area">
+                      <!-- Comment Content -->
+                      <div class="comment-content">
+                        <!-- Comment Author -->
+                        <div class="comment-author">
+                          <img src="https://bit.ly/3DtKbtK" alt="author" />
+                        </div>
+                        <!-- Comment Meta -->
+                        <div class="comment-meta">
+                          <a href="#" class="comment-date">27 Aug 2022</a>
+                          <h6>Tomas Mandy</h6>
+                          <p>
+                            Neque porro quisquam est, qui dolorem ipsum quia
+                            dolor sit amet, consectetur, adipisci velit, sed
+                            quia non numquam eius
+                          </p>
+                          <div class="reaction">
+                            <a href="" class="like">like</a>
+                            <a href="" class="reply">Reply</a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <ol class="children">
+                        <li class="single_comment_area">
+                          <!-- Comment Content -->
+                          <div class="comment-content">
+                            <!-- Comment Author -->
+                            <div class="comment-author">
+                              <img src="https://bit.ly/3K0YKrj" alt="author" />
+                            </div>
+                            <!-- Comment Meta -->
+                            <div class="comment-meta">
+                              <a href="#" class="comment-date">27 Aug 2022</a>
+                              <h6>Britney Millner</h6>
+                              <p>
+                                Neque porro quisquam est, qui dolorem ipsum quia
+                                dolor sit amet, consectetur, adipisci velit, sed
+                                quia non numquam eius
+                              </p>
+                              <div class="reaction">
+                                <a href="" class="like">like</a>
+                                <a href="" class="reply">Reply</a>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ol>
+                    </li>
+
+                    <!-- Single Comment Area -->
+                    <li class="single_comment_area">
+                      <!-- Comment Content -->
+                      <div class="comment-content">
+                        <!-- Comment Author -->
+                        <div class="comment-author">
+                          <img src="https://bit.ly/3tWMu5A" alt="author" />
+                        </div>
+                        <!-- Comment Meta -->
+                        <div class="comment-meta">
+                          <a href="#" class="comment-date">27 Aug 2022</a>
+                          <h6>Simon Downey</h6>
+                          <p>
+                            Neque porro quisquam est, qui dolorem ipsum quia
+                            dolor sit amet, consectetur, adipisci velit, sed
+                            quia non numquam eius
+                          </p>
+                          <div class="reaction">
+                            <a href="" class="like">like</a>
+                            <a href="" class="reply">Reply</a>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- Post A Comment Area -->
+                <div class="post-a-comment-area">
+                  <!-- Section Title -->
+                  <div class="section-heading">
+                    <h4>Leave a reply</h4>
+                    <div class="line"></div>
+                  </div>
+
+                  <!-- Reply Form -->
+                  <div class="contact-form-area">
+                    <div class="row">
+                      <div class="col-12 col-lg-6">
+                        <input type="text" placeholder="Your Name*" />
+                      </div>
+                      <div class="col-12 col-lg-6">
+                        <input type="email" placeholder="Your Email*" />
+                      </div>
+                      <div class="col-12">
+                        <textarea placeholder="Message*"></textarea>
+                      </div>
+                      <div class="col-12">
+                        <button>Submit Comment</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="sidebar-area">
+              <div class="single-widget share-post-widget mb-50">
+                <p>Share This Post</p>
+                <a href="#" class="facebook"
+                  ><i class="ri-facebook-fill"></i> Facebook</a
+                >
+                <a href="#" class="twitter"
+                  ><i class="ri-twitter-fill"></i> Twitter</a
+                >
+                <a href="#" class="google"
+                  ><i class="ri-google-fill"></i> Google+</a
+                >
+              </div>
+
+              <div class="single-widget author-widget">
+                <div class="author-infor">
+                  <img
+                    class="author-avatar"
+                    src="https://bit.ly/3KgCGJu"
+                    alt=""
+                  />
+                  <a href="#" class="author-name">Chris Hemsworth</a>
+                  <div class="author-social-info">
+                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                    <a href="#"><i class="ri-pinterest-line"></i></a>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                </div>
+
+                <div class="authors-meta-data d-flex">
+                  <p>Posted<span class="counter">80</span></p>
+                  <p>Comments<span class="counter">230</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer-area">
+      <div class="container">
+        <div class="row">
+          <!-- Footer Area -->
+          <div class="col-12 col-sm-6 col-xl-4">
+            <div class="footer-areas">
+              <!-- Logo -->
+              <a href="./index.html" class="logo-block"
+                ><img src="./img/footer-logo.png" alt=""
+              /></a>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna
+              </p>
+              <!-- Footer Newsletter Area -->
+              <div class="contact-mail">
+                <input type="email" id="Email" placeholder="Your email" />
+                <button type="submit"><i class="ri-mail-send-fill"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Footer Area -->
+          <div class="col-12 col-sm-6 col-xl-4">
+            <div style="padding: 0" class="footer-areas">
+              <h6 class="widget-title">Latest Twister</h6>
+              <!-- Twitter Slides -->
+              <div
+                id="owl-carousel-twitter"
+                class="owl-carousel owl-theme twitter-slides"
+              >
+                <div class="item 1st tw">
+                  <p>
+                    <i class="ri-twitter-fill"></i> <span>@Person1</span> I am
+                    so happy because I found this magazine, and it just made
+                    Vizeweasier. Thanks for sharing
+                  </p>
+
+                  <p>
+                    <i class="ri-twitter-fill"></i> <span>@Person2</span> I am
+                    so happy because I found this magazine, and it just made
+                    Vizeweasier. Thanks for sharing
+                  </p>
+                </div>
+
+                <div class="item 2nd tw">
+                  <p>
+                    <i class="ri-twitter-fill"></i> <span>@Person3</span> I am
+                    so happy because I found this magazine, and it just made
+                    Vizeweasier. Thanks for sharing
+                  </p>
+
+                  <p>
+                    <i class="ri-twitter-fill"></i> <span>@Person4</span> I am
+                    so happy because I found this magazine, and it just made
+                    Vizeweasier. Thanks for sharing
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Footer Area -->
+          <div class="col-12 col-sm-12 col-xl-4">
+            <div class="footer-areas">
+              <h6 class="widget-title">Our Address</h6>
+              <!-- Contact Address -->
+              <div class="contact-address">
+                <p>
+                  21K Nguyen Van Troi, Dist.Phu Nhuan, HCM city<br />IN 123 456,
+                  VN
+                </p>
+                <p>Phone: 001-1234-88888</p>
+                <p>Email: teonguyen123@gmail.com</p>
+              </div>
+              <!-- Footer Social Area -->
+              <div class="footer-social-area">
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  class="facebook"
+                  ><i class="ri-facebook-fill"></i
+                ></a>
+                <a
+                  href="https://www.google.com.hk/"
+                  target="_blank"
+                  class="google"
+                  ><i class="ri-google-fill"></i
+                ></a>
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  class="instagram"
+                  ><i class="ri-instagram-fill"></i
+                ></a>
+                <a href="https://twitter.com/" target="_blank" class="twitter"
+                  ><i class="ri-twitter-fill"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/"
+                  target="_blank"
+                  class="linkedin"
+                  ><i class="ri-linkedin-fill"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <!-- Jquery [used before Bootstrap]-->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+
+  <!-- Bootstrap -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.min.js"
+    integrity="sha512-OvBgP9A2JBgiRad/mM36mkzXSXaJE9BEIENnVEmeZdITvwT09xnxLtT4twkCa8m/loMbPHsvPl0T8lRGVBwjlQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+
+  <!-- Wow js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+
+  <!-- Owl carousel -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+
+  <!-- Script link -->
+  <script src="./js/detail.js"></script>
+</html>

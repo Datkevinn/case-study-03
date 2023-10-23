@@ -1,0 +1,80 @@
+// Menu nav bar
+@keyframes menu_down {
+    from {
+        background-color: transparent;
+        transform: translateY(-3rem);
+    }
+    to {
+        background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.53);
+
+        transform: translateY(0);
+    }
+}
+
+@keyframes menu_down-reverse {
+    from {
+        background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.53);
+    }
+    to {
+        background-color: transparent;
+        transform: translateY(0);
+    }
+}
+
+@keyframes arrow-up {
+    from {
+        top: 110vh;
+    }
+    to {
+        top: calc(100vh - 6rem);
+    }
+}
+@keyframes arrow-up-reverse {
+    from {
+        top: calc(100vh - 6rem);
+    }
+    to {
+        top: 110vh;
+    }
+}
+@keyframes arrow-moving {
+    0%,
+    100% {
+        top: 2rem;
+    }
+    50% {
+        top: 4rem;
+    }
+}
+
+
+@keyframes loading-duck {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+
+@keyframes menu-mobileIn {
+    from{
+        right: -40rem;
+    }
+    to{
+        right: 0;
+    }
+}
+@keyframes menu-mobileIn-reverse {
+    from{
+        right: 0;
+    }
+    to{
+        right: -40rem;
+    }
+}
